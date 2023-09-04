@@ -4,6 +4,7 @@ import MealItemForm from "./MealItemForm";
 function MealItem(props) {
   const meal = props.item;
   const price = `$${props.item.price.toFixed(2)}`;
+
   return (
     <li className={styles.meal}>
       <div>

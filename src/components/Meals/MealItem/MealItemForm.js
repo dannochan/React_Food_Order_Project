@@ -16,6 +16,7 @@ function MealItemForm(props) {
           step: "1",
           defaultValue: "1",
         }}
+        onChange={addItemHandler}
       />
       <button type="submit">+ Add</button>
     </form>
